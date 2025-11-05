@@ -1,0 +1,53 @@
+name: irregly
+description: ""
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
+  flutter_screenutil: ^5.9.3
+  url_launcher: ^6.3.2
+  path_provider: ^2.1.5
+  http: ^1.5.0
+  package_info_plus: ^9.0.0
+
+flutter_launcher_icons: 
+  android: "irregly_icon"
+  image_path: "assets/icons/irregly_icon.png" 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/
+
+  fonts: 
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/medium.ttf
+          weight: 500
+        - asset: assets/fonts/semi_bold.ttf
+          weight: 700
+        - asset: assets/fonts/bold.ttf
+          weight: 900
+
+

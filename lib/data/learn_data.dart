@@ -1,0 +1,1 @@
+enum ExamMode {simple, classicExam, weakFocusedExam}
